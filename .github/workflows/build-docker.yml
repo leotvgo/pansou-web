@@ -27,7 +27,7 @@ jobs:
     - name: Checkout backend repository
       uses: actions/checkout@v4
       with:
-        repository: fish2018/pansou
+        repository: leotvgo/pansou
         path: backend
         # 如果后端仓库是私有的，需要配置token
         # token: ${{ secrets.BACKEND_REPO_TOKEN }}
